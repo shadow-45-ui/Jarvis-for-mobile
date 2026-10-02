@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Local environment / secrets
+.env
+*.env
+!.env.example
+*.key
+*.token
+
+# JARVIS local data
+.jarvis/
+*.jsonl
+
+# Local AI model files
+*.gguf
+*.gguf.part
+
+# Temporary files
+*.tmp
+*.temp
+
+# Android / Termux local files
+storage/
